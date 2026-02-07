@@ -25,7 +25,8 @@ function menu(){
          source .src/basicConfig.sh
       ;;
       3)
-         source .src/devConfig.sh
+         source .src/functions.sh
+         add_repositories
       ;;
 
       4)
