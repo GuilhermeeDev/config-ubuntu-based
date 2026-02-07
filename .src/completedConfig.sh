@@ -1,7 +1,4 @@
 #!/bin/bash
-# source .src/functions.sh
-
-#!/bin/bash
 source .src/functions.sh
 
 LOGFILE="logs/[Configuracao-Completa]-[$(date +%d-%m-%Y)-$(date +%H:%M)].log"
