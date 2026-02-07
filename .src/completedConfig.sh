@@ -31,18 +31,18 @@ packages=(
     "ack-grep"
     "fontconfig"
     "imagemagick"
+    "vim"
     "vim-gtk3"
     "dirmngr"
     "gawk"
     "silversearcher-ag"
     "coreutils"
     "gpg"
-    "gawk"
     "plocate"
+    "libreoffice"
 )
 
 # 1 - ADIÇÃO DE REPOSITORIOS E INSTALAÇÃO DE PACOTES
-
 add_repositories | tee -a $LOGFILE
 
 # Garantia de configuracao de drivers
@@ -52,7 +52,6 @@ sudo ubuntu-drivers install | tee -a $LOGFILE
 sudo apt install -y "${packages[@]}" | tee -a $LOGFILE
 
 # 2 - CRIAÇÃO DE PASTAS DE AMBIENTE E CUSTOMIZAÇÃO
-
 mkdir "$HOME"/Apps
 mkdir "$custom_path"
 git clone https://github.com/daniruiz/dotfiles.git "$custom_path"
@@ -96,7 +95,8 @@ if [[ $op == "sim" || $op == "s" ]]; then
     asdf install elixir latest
     asdf install golang latest
     asdf install java latest
-    asdf install rust latest
+    asdf install rust l
+- 📦 Instalação automatizada deatest
     asdf install ruby latest
     asdf install crystal latest
     asdf install php latest
