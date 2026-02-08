@@ -20,7 +20,8 @@ Esse é meu script atual para o ano de 2026 para distros ubuntu & Based's como `
 ### ⚙️ Como rodar
 Clone este repositório:
 ```
-git clone https://github.com/GuilhermeeDev/script-config-Ubuntu.git ~/
+cd ~
+git clone https://github.com/GuilhermeeDev/script-config-Ubuntu.git
 ```
 Rode o arquivo de `setup.sh`:
 ```
