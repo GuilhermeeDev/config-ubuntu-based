@@ -25,7 +25,7 @@ git clone https://github.com/GuilhermeeDev/script-config-Ubuntu.git
 ```
 Rode o arquivo de `setup.sh`:
 ```
-cd config-ubuntu-based
+cd script-config-Ubuntu
 chmod +x ./setup.sh
 ./setup.sh
 ```
