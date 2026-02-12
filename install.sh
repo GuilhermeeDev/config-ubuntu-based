@@ -126,6 +126,11 @@ sudo apt install apt-transport-https && sudo apt update && sudo apt install code
 # Instalando o Claude code AI
 curl -fsSL https://claude.ai/install.sh | bash | tee -a $LOGFILE
 
+# Instalando o AWS cli v1
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
 source ~/.bashrc
 
 clear
