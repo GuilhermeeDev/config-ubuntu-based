@@ -1,4 +1,4 @@
-# 🐧 Script de configuração para distros Ubuntu & Based's
+# 🐧 Script de configuração para Ubuntu
 
 <div align="center">
     <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black" alt="Linux Badge"></img>
